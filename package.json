@@ -1,0 +1,22 @@
+{
+	"name": "system.js",
+	"version": "0.0.1",
+	"description": "A js library that return an object which contains more info both of the system and the browser.",
+	"main": "''",
+	"scripts": {
+		"dev": "webpack-dev-server --inline --host 0.0.0.0"
+	},
+	"keywords": [
+		"system",
+		"browser"
+	],
+	"author": "YreenChan",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-core": "^6.9.0",
+		"babel-loader": "^6.2.4",
+		"babel-plugin-transform-es2015-classes-simple": "^1.0.0",
+		"babel-preset-es2015": "^6.9.0",
+		"webpack": "^1.13.1"
+	}
+}
